@@ -1,0 +1,13 @@
+__pycache__/
+data/nfp2/input.nfp2_QA:Zone.Identifier
+other_files/qi_functions.py:Zone.Identifier
+other_files/__pycache__/
+other_files/VMEC_database.py:Zone.Identifier
+other_files/vmecPlot2.py:Zone.Identifier
+input.nfp2_QA_000_000000
+input.nfp2_QA_000_000001
+threed1.nfp2_QA
+wout_nfp2_QA_000_000000.nc
+wout_nfp2_QA_000_000001.nc
+parvmecinfo.txt
+venv/
