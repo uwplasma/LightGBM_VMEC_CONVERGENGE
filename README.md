@@ -8,6 +8,33 @@ The repository comprises three main folders:
 
 * *data_analysis*: Contains files for interpreting the database. This folder has two subfolders, one for quasi-symmetry and one for quasi-isodynamic properties within the database. For each of these quantities, LightGBM was used to create binary classification and regression models, and LightGBM LSS was used to train a regression model.
 
+## Folder Structure
+```
+data_analysis/
+│── quasi_isodynamic/
+│   ├── non_probabilistic_models/
+│   │   ├── qi_study_nn.ipynb  # Generates neural network plots
+│   │   ├── qi_study.ipynb     # Generates LightGBM plots
+│   │
+│   ├── probabilistic_models/
+│   │   ├── plot_lss.ipynb  # Generates plots for LightGBM_LSS
+│
+│── quasi_symmetric/
+│   ├── non_probabilistic_model/
+│   │   ├── lightgbm_classification_model/
+│   │   │   ├── plot_class.ipynb  # Generates VMEC convergence section plots (e.g., confusion matrix)
+│   │   │
+│   │   ├── lightgbm_regressor/
+│   │   │   ├── qs_study_nn.ipynb  # Generates neural network plots
+│   │   │   ├── plot.ipynb         # Generates LightGBM plots
+│   │
+│   ├── probabilistic_models/
+│   │   ├── plot_lss.ipynb              # Generates LightGBM_LSS plots
+│   │   ├── lgbm_boxplot_errors.py      # Generates CSV with LightGBM errors
+│   │   ├── lgbmlss_boxplot_errors.py   # Generates CSV with LightGBM_LSS errors
+│   │   ├── boxplot.ipynb               # Uses CSVs to create a boxplot figure
+```
+
 ## Instalation
 Clone the repository and install the necessary packages. In the file *requirements.txt*, you will find all the packages required to run files from the repository.
 <pre>
