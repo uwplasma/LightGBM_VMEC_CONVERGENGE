@@ -1,3 +1,8 @@
+# DATA
+
+The stellarator database that is used in this repository can be found in Zenodo:
+[Stellarator Database](https://zenodo.org/records/15008345)
+
 # PIC-STELLARATOR
 The PIC-STELLARATOR repository aims to establish a database for a comprehensive assessment of the conditions under which functional and efficient stellarators can be created and also for posterior analisation with machine learning.
 
