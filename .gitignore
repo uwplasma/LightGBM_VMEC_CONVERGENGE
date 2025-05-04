@@ -11,3 +11,7 @@ wout_nfp2_QA_000_000000.nc
 wout_nfp2_QA_000_000001.nc
 parvmecinfo.txt
 venv/
+threed*
+parvmecinfo*
+fort.9
+*_000_0000*
